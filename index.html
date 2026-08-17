@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "description" content="Club de video">
+    <meta name = "keywords" content = "peliculas, video, cine, series">
+    <meta property = "og:title" content="Club de video">
+
+    <title>Club de video</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1> club de videos</h1>
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="#inicio">Inicio ></a></li>
+                <li> <a href="#peliculas">Peliculas ></a></li>
+                <li> <a href="#actores">Actores ></a></li>
+                <li> <a href="#contacto">Contacto ></a></li>
+            </ul>
+        </nav>
+    </header>
+ <main>
+    <section id = "inicio">
+        <h2>Bienvenido a club de video</h2>
+        <p>Aqui encontraras las mejores peliculas</p>
+        <button>Ver peliculas</button>
+    </section>
+    <section id= "peliculas">
+        <h2 > pelicuas destacas</h2>
+        <article itemscope itemtype="https://mipagina/movie">
+            <img src="C:\Users\Adrian\OneDrive\Documentos\TecWeb I\images\Titanes_del_Pacaifico-782296495-large.jpg" alt = "pelicula animada" itemprop="Pelicula animada">
+            <h3 itemprop="name">Tarzan</h3>
+            <p>La historia de tarzan</p>
+            <span itemprop="director">Director: Jose Perez</span>
+            <span itemprop="published">año 2026</span>
+        </article>
+        <article itemscope itemtype="https://mipagina/movie">
+            <img src="C:\Users\Adrian\OneDrive\Documentos\TecWeb I\images\Titanes_del_Pacaifico-782296495-large.jpg" alt = "pelicula animada" itemprop="Pelicula animada">
+            <h3 itemprop="name">Tarzan</h3>
+            <p>La historia de tarzan</p>
+            <span itemprop="director">Director: Jose Perez</span>
+            <span itemprop="published">año 2026</span>
+        </article>
+        <article itemscope itemtype="https://mipagina/movie">
+            <img src="C:\Users\Adrian\OneDrive\Documentos\TecWeb I\images\Titanes_del_Pacaifico-782296495-large.jpg" alt = "pelicula animada" itemprop="Pelicula animada">
+            <h3 itemprop="name">Tarzan</h3>
+            <p>La historia de tarzan</p>
+            <span itemprop="director">Director: Jose Perez</span>
+            <span itemprop="published">año 2026</span>
+        </article>
+    </section>  
+    <section id = "testimonios">
+        <h2>Testimonios</h2>
+        <blockquote>
+            "Esta seccion tiene las mejores pelicuas"
+            <cite>Anna Valle</cite>
+        </blockquote>
+        <blockquote>
+            "Excelente calidad de resolucion"
+            <cite>Carlos Contreras</cite>
+        </blockquote>
+    </section>
+    <section id = "contacto">
+        <h2>Contacto</h2>
+        <form action = "#" method="POST">
+            <div>
+                <label for = "nombre">Nombre: </label>
+                <input type="text" id="nombre" name = nombre required minlength="3">
+
+            </div>
+            <div>
+                <label for = "email">Email: </label>
+                <input type="email" id = "email" name = "email" required>
+            </div>
+            <div>
+                <label for = "mensaje"> Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" required minlength="15"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Enviar mensaje">
+            </div>
+        </form>
+    </section>
+ </main>
+</body>
+</html>
